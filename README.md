@@ -39,3 +39,21 @@ The simple interest is **100**, and the total amount is **1,100**, in the same c
 ## Project Purpose
 
 This repository documents the inputs, formula, and calculation steps for a simple interest calculator as an educational project.
+
+## Run the Calculator
+
+With Bash and awk installed (Linux, macOS, or Git Bash on Windows), run:
+
+```bash
+bash simple-interest.sh
+```
+
+Enter the principal, annual percentage rate, and duration in years when prompted.
+The script accepts non-negative whole numbers and decimals and displays interest
+and total amount rounded to two decimal places.
+
+## Contributing and License
+
+All contributions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) and
+[CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md). This project uses the
+[Apache License 2.0](LICENSE).
